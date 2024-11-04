@@ -217,7 +217,7 @@ if (is_logged_in()) {
     
     <body>
         <div class="login-form">
-            <h1 class="logo">LOGIN<span>L0C4LR00T 2024</span></h1>
+            <h1 class="logo">L0C4L<span>R00T</span></h1>
             <div class="login-box">
                 <?php
                 if (isset($error_message)) {
