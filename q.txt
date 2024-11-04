@@ -95,7 +95,7 @@ if (is_logged_in()) {
 
     body {
         overflow: hidden;
-        background-image: url(https://images3.alphacoders.com/926/926667.jpg);
+        background-image: url(https://images4.alphacoders.com/289/2898.jpg);
         background-color: black;
         background-size: cover;
         background-repeat: no-repeat;
