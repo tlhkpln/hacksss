@@ -72,7 +72,7 @@ if (is_logged_in()) {
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>LOGIN Dulu Man</title>
+        <title>L0C4LR00T </title>
         <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Caveat+Brush&display=swap" rel="stylesheet">
         <link rel="shortcut icon" href="https://wallpapercave.com/wp/wp4020127.jpg" type="image/x-icon">
         <style>
@@ -95,7 +95,7 @@ if (is_logged_in()) {
 
     body {
         overflow: hidden;
-        background-image: url(https://pomf2.lain.la/f/1jhntt0.jpg);
+        background-image: url(https://images3.alphacoders.com/428/4285.jpg);
         background-color: black;
         background-size: cover;
         background-repeat: no-repeat;
@@ -217,14 +217,14 @@ if (is_logged_in()) {
     
     <body>
         <div class="login-form">
-            <h1 class="logo">LOGIN<span> Dulu Man</span></h1>
+            <h1 class="logo">LOGIN<span>L0C4LR00T 2024</span></h1>
             <div class="login-box">
                 <?php
                 if (isset($error_message)) {
                     echo "<p class='error'>$error_message</p>";
                 }
                 ?>
-                <p class="quote">haha login first little bastard</p>
+                <p class="quote">Ehliyet ruhsat lütfen</p>
                 <form method="post">
                     <input type="hidden" name="log" value="login">
                     <div class="inputBox">
@@ -240,7 +240,7 @@ if (is_logged_in()) {
                     </div>
                 </form>
             </div>
-            <div class="copyright"><span>&copy Dulu Man 2024</span></div>
+            <div class="copyright"><span>&L0C4LR00T 2024</span></div>
         </div>
     </body>
     
