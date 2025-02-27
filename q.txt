@@ -46,7 +46,7 @@ if (isset($_POST['log']) && $_POST['log'] === 'login' && isset($_POST['username'
     // Example validation (replace with your actual validation logic)
     $entered_username = $_POST['username'];
     $entered_password = $_POST['password'];
-    $hashed_password = '4bdba3f2c612c2ee14568b1adf8f03bd'; // Replace this with your MD5 hashed password
+    $hashed_password = '8ef8cb87e84682e8ab182da857f0db77'; // Replace this with your MD5 hashed password
 
     if ($entered_username === 'admin' && md5($entered_password) === $hashed_password) {
         // Username and password are correct, store it in session
